@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(118, 116, 196);
+}
+.todo-container{
+    background-color: white;
+    text-align: center;
+    width: fit-content;
+    padding: 2rem;
+    margin: auto;
+    margin-top: 14rem;
+}
+button{
+    background-color: green;
+    color: white;
+    padding: 0.5rem;
+    font-size: 20px;
+}
+input{
+    margin: 4px;
+    padding: 0.5rem;
+    font-size: 20px;
+}
+button:hover{
+    background-color: rgb(29, 248, 29);
+    color: red;
+}
+ul{
+    padding: 5px;
+    margin:auto;
+    border:1px transparent gray;
+    width: auto;
+    height: auto;
+    background-color: rgb(208, 205, 205);
+}
+li{
+    /* background-color: white; */
+    margin-bottom: 10px;
+    padding: 10px;
+    /* border-radius: 4px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.edit-btn,.delete-btn{
+    background-color: orangered;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.edit-btn{
+    background-color: gold;
+}
+/* .task-container{
+    margin:auto;
+    border:1px transparent gray;
+    width: auto;
+    height: auto;
+    background-color: rgb(208, 205, 205);
+} */
